@@ -12,7 +12,7 @@
 # maven
 ```
 <dependency>
-   <groupId>com.phonepe.ratelimiter</groupId>
+   <groupId>com.rakesh.ratelimiter</groupId>
    <artifactId>rate-limiter</artifactId>
    <version>1.0-SNAPSHOT</version>
 </dependency>
