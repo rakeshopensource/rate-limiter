@@ -1,0 +1,71 @@
+{
+  "clients": {
+    "dot.com": {
+      "limit": {
+        "hour": 20
+      },
+      "specialization": {
+        "api": {
+          "/pay": {
+            "limit": {
+              "min": 5
+            }
+          },
+          "/catalog": {
+            "limit": {
+              "min": 5
+            }
+          }
+        },
+        "method": {
+          "post": {
+            "limit": {
+              "hour": 5
+            }
+          },
+          "get": {
+            "limit": {
+              "min": 15
+            }
+          }
+        }
+      }
+    },
+    "dot.org": {
+      "limit": {
+        "min": 2,
+        "hour": 10
+      },
+      "specialization": {
+        "api": {
+          "/pay": {
+            "limit": {
+              "min": 9,
+              "sec": 3
+            }
+          },
+          "/details": {
+            "limit": {
+              "min": 9,
+              "sec": 3
+            }
+          }
+        },
+        "method": {
+          "post": {
+            "limit": {
+              "min": 9,
+              "sec": 3
+            }
+          },
+          "get": {
+            "limit": {
+              "min": 9,
+              "sec": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}
